@@ -1,21 +1,13 @@
 import './App.css'
 import React from 'react'
+import Nav from './Components/nav'
+import Hero from './Components/Hero'
 
 const App = () => {
   return (
     <div>
-      <nav>
-        <div className="logo">
-          <img src='/images/brand_logo.png' alt="logo"/>
-        </div>
-        <ul>
-          <li herf='#'>Menu</li>
-          <li herf='#'>Location</li>
-          <li herf='#'>About</li>
-          <li herf='#'>Contact</li>
-        </ul>
-        <button>Login</button>
-      </nav>
+       <Nav/>
+       <Hero/>
     </div>
   )
 }

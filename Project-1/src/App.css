@@ -10,26 +10,78 @@
 body{
   font-family: "Poppins", sans-serif;
 }
- nav button {
- all: unset;
- background: var(--red);
- padding: 6px 16px;
- height: 31px;
- color: aliceblue;
- font-weight: 508;
+button {
+  all: unset;
+  background: var(--red);
+  padding: 6px 16px;
+  height: 31px;
+  color: white;
+  border-radius: 2px;
+  font-weight: 508;
+  cursor: pointer;
  }
 
 nav{
   display: flex;
+  margin: 0 auto;
+  max-width: 1280px;
   align-items: center;
   justify-content: space-between;
-  max-width: 1280px;
-  margin: 0 auto;
   height: 72px;
+  margin-bottom: 19rex;
 }
 
 nav ul {
   display: flex;
   list-style: none;
   gap: 21px;
+}
+
+.heroContents{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.Hero{
+  margin: 8rem auto;
+  max-width: 1150px;
+  height: 613px;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+.Hero h1{
+  font-weight: 820;
+  font-size: 103px;
+  line-height: 102px;
+}
+.Hero p{
+  color: var(--grey);
+  line-height: auto;
+  font-size: 16px;
+  font-weight: 600;
+  width: 404px;
+}
+.heroBtn{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  font-size: 24px;
+}
+.secBtn{
+  background: transparent;
+  border: 2px solid var(--grey);
+  color: var(--grey);
+}
+.shopsites{
+  font-size: 14px;
+  color: var(--grey);
+}
+.shopsLogos{
+  display: flex;
+  gap: 16px;
+}
+.shopsLogos img{
+  cursor: pointer;
 }
