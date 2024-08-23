@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav-Links {
+  transition: top 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55), border-radius 0.4s ease-in-out; /* Transition for top and border-radius */
+}
+
 :root {
   --red: #D01C28;
   --grey: #2E2E2E;
