@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --red: #D01C28;
+  --grey: #2E2E2E;
+  --light-grey: #f4f7fd;
+}
+
+button{
+  user-select: unset;
+  background-color: var(--red);
+  padding-inline: 1vw;
+  padding-block: 0.5vw;
+  font-weight: 700;
+  color: var(--light-grey);
+  border-radius: 0.2rem;
+}
+button:hover{
+  color: white;
+  background: #B91C1C;
+}
